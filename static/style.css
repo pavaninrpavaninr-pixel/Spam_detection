@@ -1,0 +1,142 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== LANDING PAGE ===== */
+.home-body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* Center everything */
+.hero-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Logo circle */
+.logo-circle {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Text */
+h1 {
+    margin: 5px 0;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 10px 0 25px;
+    font-size: 16px;
+}
+
+/* Button */
+.cta-btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    transform: scale(1.05);
+}
+
+/* ===== DETECTION PAGE ===== */
+.detect-body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    width: 420px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.card h1 {
+    margin-bottom: 20px;
+}
+
+/* Input */
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Result */
+.result-box {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Result colors */
+.spam {
+    background: #ffe5e5;
+    color: red;
+}
+
+.ham {
+    background: #e6ffe6;
+    color: green;
+}
+
+/* Back button */
+.back-btn {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #555;
+}
